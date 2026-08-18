@@ -1,0 +1,15 @@
+### Helath
+GET http://localhost:3000/api/health
+
+### listar usuarios
+GET http://localhost:3000/api/users
+
+### criar usuarios
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+    "nome": "Vitor",
+    "email": "vitor@email.com",
+    "senha_hash": "1234@"
+}
